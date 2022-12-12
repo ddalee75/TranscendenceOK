@@ -1,0 +1,16 @@
+### STAGE 1: Build ###
+FROM node:19 AS build
+WORKDIR /usr/src/app
+COPY package.json package-lock.json ./
+RUN npm install -g npm
+RUN npm install
+COPY . .
+ARG IP_HOST=IP_HOST
+ARG PORT_HTTPS_HOST=PORT_HTTPS_HOST
+ARG INTRA_UID=INTRA_UID
+RUN sh sed.sh
+RUN npm run build
+### STAGE 2: Run ###
+FROM nginx
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=build /usr/src/app/dist/transcendence-front /usr/share/nginx/html

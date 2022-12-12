@@ -1,0 +1,28 @@
+
+<div class="pong_player">
+    <h4>Player {{player.id}}</h4>
+    <label for="mode">
+        <select [(ngModel)]="player.mode.type" name="mode" id="mode">
+            <option value="local">local</option>
+            <option value="ai">ai</option>
+            <option value="remote">remote</option>
+        </select>
+        <br>
+        <label *ngIf="player.mode.type === 'local'" for="key">
+            upKey:
+            <input  type="text" id="upKey" [(ngModel)]="player.mode.upKey" placeholder="upKey" /><br>
+            downKey:
+            <input type="text" id="downKey" [(ngModel)]="player.mode.downKey" placeholder="downKey" /><br>
+        </label>
+      
+        <label *ngIf="player.mode.type === 'ai'" for="level">
+            level:
+            <select [(ngModel)]="player.mode.level" name="level" id="level">
+                <option value="easy">easy</option>
+                <option value="hard">hard</option>
+            </select>
+        </label>
+    </label>
+    <!-- <label for="racket">racket: </label>
+    <label for="input">input: </label> -->
+</div>

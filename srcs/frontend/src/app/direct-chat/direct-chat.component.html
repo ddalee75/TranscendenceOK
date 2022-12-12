@@ -1,0 +1,55 @@
+<!-- <app-chat-history [Me]="Me" [Dest]="Dest"></app-chat-history>
+<input [(ngModel)]="message" />
+<button (click)="sendMessage()">Send</button> -->
+
+<div class="gameSetting">
+	<app-game-settings 
+	(showGameSettingsEvent)="receiveShowGameSettings($event)" 
+	(globalEvent)="receiveGlobalEvent($event)"
+	[player2]="this.Dest" [player1]="this.Me"
+	*ngIf="showGameSettings==true"></app-game-settings>
+</div>
+<div class="all_direct" *ngIf="showGameSettings!=true">
+	
+	
+	<!-- <div class="contenu_chat"  #scrollMe [scrollTop]="scrollMe.scrollHeight"> -->
+	<div class="contenu_chat"  #scrollMe scrollTop={{scrolltop}}   >
+
+	
+	<!-- <div class="direct_chat" > -->
+		<div class="chatwith"> Chat with {{Dest.nickname}}</div>
+		
+		<!-- <div class="chat_history">
+		<app-chat-history [Me]="Me" [Dest]="Dest" ></app-chat-history>
+		</div> -->
+		
+		<div class="direct_message" *ngFor="let message of old_messages">
+			{{message.fromUserName}}: {{message.content}}
+		</div>
+		
+
+		<div class="direct_message" *ngFor="let message of messages;">
+			{{ message }}
+		</div>
+		<div class="chatfond" style="background-image: url('{{Dest.avatar}}');"></div>
+	</div><!-- fin de contenu_chat	 -->
+	
+	<div *ngIf="this.bloqueOrNot" class="input_chat">
+	<input type="text" (keydown.enter)="sendMessage()" [(ngModel)]="message">
+	</div>
+
+
+	<div class="relation">
+	
+		<app-button-v3 *ngIf="this.bloqueOrNot" [text]= "friend" (click)="addDelFriend()" ></app-button-v3>
+		<app-button-v3 *ngIf="this.bloqueOrNot" [text]="'Play Pong'" (click)="invite_game()" ></app-button-v3>
+		<app-button-v3 [text]="bloque" (click)="blockOrNot()"></app-button-v3>
+		
+		<app-button-v3 text="Profile" (click)="goToProfile()"></app-button-v3>
+		
+		
+	</div><!-- fin de realtion -->
+
+
+</div><!-- fin de all_direct -->
+<!-- </div> -->

@@ -1,0 +1,39 @@
+<div class="all_players">
+
+    <div class="env_players">
+       
+        <div class="user">
+        <div class="superposer">
+        <div class="winner" style="background-image:url({{this.winner_player1}})" ></div>
+        <div class="looserColor" style="opacity:{{this.opacity_player1}}"></div>
+        <div class="user_photo"  
+        style="background-image:url({{this.player1_avatar}})" ></div>
+        <div class="user_name">{{this.player1_login}}<br> {{this.match.player1_score}}</div>
+        <div class="user_name">Level: {{this.player1_level}}</div>
+        </div>
+        </div>
+
+        <div class="user">
+            <div class="user_photo"  style="background-image:url(../../../assets/imgs/vs-versus.png)" ></div>
+        </div>
+        
+        <div class="user">
+            <div class="superposer">
+           <div class="winner" style="background-image:url({{this.winner_player2}})"></div>
+            <div class="looserColor"  style="opacity:{{this.opacity_player2}}"></div>
+            <div class="user_photo"  style="background-image:url({{this.player2_avatar}})" ></div>
+            <div class="user_name">
+                {{this.player2_login}} <br> 
+                {{this.match.player2_score}}</div>
+        <div class="user_name">Level: {{this.player2_level}}</div>
+    </div>
+        
+        </div>
+    </div>
+   
+        <!-- <div class="btn">
+        Room Name ={{this.match.roomName}};
+        {{this.match.players[0].login}}
+        {{this.match.players[1].login}}
+        </div> -->
+

@@ -1,0 +1,48 @@
+
+<div class="all_vip">
+  
+    <div *ngIf="this.login" class="bloc_vip">
+        <div class="title_vip">{{this.login}}'s Profile</div>
+        <div class="title_vip2">(Nickname: {{this.nickname}})</div>
+        <div class="user_photo"  style="background-image:url({{this.avatar}})" ></div>
+        <div class="user_name" >{{this.nickname}}</div>
+        <div class="user_name" >Level : {{this.level}}</div>
+        <div class="env_metaille">
+            <div *ngIf="this.succes<1" class="metaille" style="background-image: url(../../assets/metaille0.png)"></div>
+                <div *ngIf="this.succes>=1" class="metaille" style="background-image: url(../../assets/metaille1.png)"></div>
+                <div *ngIf="this.succes>=2" class="metaille"  style="background-image: url(../../assets/metaille2.png)"></div>
+                <div *ngIf="this.succes<2" class="metaille"  style="background-image: url(../../assets/metaille0.png)"></div>
+                <div *ngIf="this.succes>=3" class="metaille" style="background-image: url(../../assets/metaille3.png)"></div>
+                <div *ngIf="this.succes<3" class="metaille" style="background-image: url(../../assets/metaille0.png)"></div>
+            </div>
+        
+        <div >
+        <app-button-v4 [text]="'Back to your profile'" (click)="backtoMyself()"></app-button-v4></div>
+
+        <!--Affichage user profile-->
+        <!--Search profile-->
+        <div class="search">
+
+         
+            <input type="text" (keydown.enter)="searchProfile()" placeholder="Search Profile" [(ngModel)]="searchName">
+            <!-- <app-button-v2 [text]="'Search Profile'" (click)="searchProfile()"></app-button-v2> -->
+
+        
+            </div><!--fin div search-->
+
+        <!--History Match-->
+        <div class="title_historique">Match History</div>
+        <div class="bloc_vip_historique">
+
+            <div *ngFor="let game of games; let i=index">
+                <app-match-history [match]="game"></app-match-history>
+            </div>
+            
+        </div>
+
+
+
+    </div><!-- fin de div bloc_vip  -->
+    
+</div><!-- fin de div all_vip  -->
+

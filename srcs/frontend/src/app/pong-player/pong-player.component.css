@@ -1,0 +1,10 @@
+.pong_player{
+    margin-top: 10px;
+}
+
+input[type=text]{
+    background-color: rgb(231, 233, 215);
+    border: 0px;
+    border-radius: 10px;
+    width:100px;
+}

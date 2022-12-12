@@ -1,0 +1,22 @@
+<div *ngIf="redirectPong==false">
+	<app-invitation-game [fromWho]="this.invitationFromWho" [to]="Me" [gameConfig]="gameConfig"
+		(showInvitationEvent)="receiveShowInivtationEvent($event)" *ngIf="invitation==true"></app-invitation-game>
+
+	<app-invitation-refuse *ngIf="refuse==true" [refuseFromWho]="this.refuseFromWho"
+		(refuseInvitationEvent)="receiverefueInvitationEvent($event)"></app-invitation-refuse>
+	<!-- <app-bloc-chat *ngIf="getRoute() != '/'"
+(global4Event)="receiveGlobal4Event($event)"
+></app-bloc-chat> -->
+	<!-- <app-pong *ngIf="showPong==true"></app-pong>  -->
+	<app-header *ngIf="getRoute() != '/' && getRoute() != '/404'"></app-header>
+	<app-bloc-chat (global4Event)="receiveGlobal4Event($event)" *ngIf="getRoute() != '/' && getRoute() != '/404'">
+	</app-bloc-chat>
+
+	<router-outlet></router-outlet>
+
+	<app-are-you-ready *ngIf="gameIsReady==true" [player1]="this.player1" [player2]="this.player2"
+		[gameConfig]="gameConfig"></app-are-you-ready>
+</div>
+<app-pong *ngIf="redirectPong==true" [customs]="gameConfig" [gameName]="roomName"></app-pong>
+<app-game-score *ngIf="showGameScore==true" [GameData]="GameData" (closeScoreEvent)="receiveCloseScoreEvent($event)">
+</app-game-score>

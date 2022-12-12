@@ -1,0 +1,155 @@
+
+  .menu {
+    height: 370px; 
+   right: 0;
+   left: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: white;
+   overflow-y: auto;
+
+   /* background-color: blue; */
+  
+}
+
+h2{
+    color: rgb(0, 141, 223);
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+
+button{
+    background-color: rgb(37, 238, 144);
+    border-radius: 20px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    /* padding-top:2px;
+    padding-bottom: 2px; */
+    margin: 2px;
+    color: rgb(48, 39, 39);
+    font-size: 13px;
+    cursor: pointer;
+    border: 0ch;
+    margin-bottom: 2px;
+    
+}
+
+button:hover{
+    background-color: rgb(2, 114, 171);
+    border-radius: 20px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    /* padding-top:2px;
+    padding-bottom: 2px; */
+    margin: 2px;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    cursor: pointer;
+    border: 0ch;
+    margin-bottom: 2px;
+    
+}
+
+
+
+.pont_ball{
+    width: 50%;
+    height: 50px;
+    background-color: rgb(4, 71, 71);
+
+}
+.pont-game{
+    width: 50%;
+	align-items: flex-start;
+	text-align: left;
+    background-color: rgb(3, 121, 105);
+}
+
+.customize{
+    /* background-color: rgba(190, 6, 214, 0.336); */
+    display: flex;
+    flex-direction: column;
+	align-items: flex-start;
+	text-align: center;
+    margin-top: 10px;
+  
+}
+
+.btn1{
+    font-size: 20px; 
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn1:hover{
+    font-size: 20px; 
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+.les_buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+ 
+}
+
+.racket {
+
+    height: 200px;
+    width: 50px;
+    border-radius: 5px;
+   
+}
+
+
+
+
+
+
+
+.title_pong{
+    color: rgb(252, 248, 248);
+    text-align: center;
+
+
+
+}
+
+.bloc{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.bloc video{
+    position: absolute;
+   min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    z-index:-100;
+    transform: translate(-50%, -50%); 
+
+}
+
+.bloc::before{
+    position: absolute;
+    content: "";
+    min-width: 100%;
+    min-height: 100%;
+    z-index:-99;
+    background-color: rgba(10, 1, 1, 0.486);
+
+}
+

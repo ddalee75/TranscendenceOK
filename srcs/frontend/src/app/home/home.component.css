@@ -1,0 +1,563 @@
+
+
+.all_home{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    background-image: url("../../assets/imgs/home_2540x1240px_nologo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.bloc_home_title{
+    width: 100%;
+    height: 400px;
+    /* background-color: rgba(0, 255, 255, 0.39); */
+    text-align: center;
+    padding-top: 70px;
+
+
+}
+
+
+.bloc_item_home{
+    margin-top: 350px;
+    /* background-color: rgb(112, 175, 175); */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+
+}
+
+.bloc_game_home{
+    background-color: rgb(131, 189, 189);
+    background-image: url("../../assets/icons/gameroom-f.jpg");
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.bloc_game_home:hover{
+    background-color: rgb(131, 189, 189);
+    background-image: url("../../assets/icons/gameroom.gif");
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.bloc_show_home{
+    background-color: rgb(78, 85, 85);
+    background-image: url("../../assets/icons/showroom-f.jpg");
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.bloc_show_home:hover{
+    background-color: rgb(78, 85, 85);
+    background-image: url("../../assets/icons/showroom.gif");
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.bloc_vip_home{
+    background-color: rgb(83, 121, 121);
+    background-image: url("../../assets/icons/viproom-f.jpg");
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+
+.bloc_vip_home:hover{
+    background-color: rgb(83, 121, 121);
+    background-image: url("../../assets/icons/viproom.gif");
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.bloc_rest_home{
+    background-color: rgb(28, 59, 59);
+    background-image: url("../../assets/icons/lounge.jpg");
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.bloc_rest_home:hover{
+    background-color: rgb(28, 59, 59);
+    background-image: url("../../assets/icons/lounge.gif");
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+
+@media only screen and (max-width: 1024px) {
+.all_home{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    background-image: url("../../assets/imgs/home_2540x1240px_nologo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bloc_home_title{
+    width: 100%;
+    height: 400px;
+    /* background-color: rgba(0, 255, 255, 0.39); */
+    text-align: center;
+    padding-top: 70px;
+}
+
+
+.bloc_item_home{
+    margin-top: 350px;
+    /* background-color: rgb(112, 175, 175); */
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+
+}
+
+.bloc_game_home{
+    background-color: rgb(41,41,41);
+    background-image: url("../../assets/icons/gameroom-f.jpg");
+    width: 160px;
+    height: 120px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.bloc_game_home:hover{
+    background-color: rgb(41,41,41);
+    background-image: url("../../assets/icons/gameroom.gif");
+    width: 160px;
+    height: 120px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.bloc_show_home{
+    background-color: rgb(41,41,41);
+    background-image: url("../../assets/icons/showroom-f.jpg");
+    width: 160px;
+    height: 120px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.bloc_show_home:hover{
+    background-color: rgb(41,41,41);
+    background-image: url("../../assets/icons/showroom.gif");
+    width: 160px;
+    height: 120px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.bloc_vip_home{
+    background-color: rgb(41,41,41);
+    background-image: url("../../assets/icons/viproom-f.jpg");
+    width: 160px;
+    height: 120px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+
+.bloc_vip_home:hover{
+    background-color: rgb(41,41,41);
+    background-image: url("../../assets/icons/viproom.gif");
+    width: 160px;
+    height: 120px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.bloc_rest_home{
+    background-color: rgb(41,41,41);
+    background-image: url("../../assets/icons/lounge.jpg");
+    width: 160px;
+    height: 120px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.bloc_rest_home:hover{
+    background-color: rgb(41,41,41);
+    background-image: url("../../assets/icons/lounge.gif");
+    width: 160px;
+    height: 120px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+}
+
+@media only screen and (max-width: 480px) {
+    .all_home{
+        width: 100%;
+        height: 100vh;
+        background-color: #000000;
+        background-image: url("../../assets/imgs/home_2540x1240px_nologo.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; 
+    }
+    
+    .bloc_home_title{
+        width: 100%;
+        height: 400px;
+        /* background-color: rgba(0, 255, 255, 0.39); */
+        text-align: center;
+        padding-top: 70px;
+    
+    
+    }
+    
+    
+    .bloc_item_home{
+        margin-top: 350px;
+        /* background-color: rgb(112, 175, 175); */
+        width: 100%;
+        height: auto;
+        display: none;
+   
+    
+    }
+    
+    .bloc_game_home{
+        background-color: rgb(131, 189, 189);
+        background-image: url("../../assets/icons/gameroom-f.jpg");
+        width: 200px;
+        height: 150px;
+        border-radius: 10px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; 
+    }
+    
+    .bloc_game_home:hover{
+        background-color: rgb(131, 189, 189);
+        background-image: url("../../assets/icons/gameroom.gif");
+        width: 200px;
+        height: 150px;
+        border-radius: 10px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; 
+    }
+    
+    .bloc_show_home{
+        background-color: rgb(78, 85, 85);
+        background-image: url("../../assets/icons/showroom-f.jpg");
+        width: 200px;
+        height: 150px;
+        border-radius: 10px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; 
+    }
+    .bloc_show_home:hover{
+        background-color: rgb(78, 85, 85);
+        background-image: url("../../assets/icons/showroom.gif");
+        width: 200px;
+        height: 150px;
+        border-radius: 10px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; 
+    }
+    
+    .bloc_vip_home{
+        background-color: rgb(83, 121, 121);
+        background-image: url("../../assets/icons/viproom-f.jpg");
+        width: 200px;
+        height: 150px;
+        border-radius: 10px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; 
+    }
+    
+    
+    .bloc_vip_home:hover{
+        background-color: rgb(83, 121, 121);
+        background-image: url("../../assets/icons/viproom.gif");
+        width: 200px;
+        height: 150px;
+        border-radius: 10px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; 
+    }
+    
+    .bloc_rest_home{
+        background-color: rgb(28, 59, 59);
+        background-image: url("../../assets/icons/lounge.jpg");
+        width: 200px;
+        height: 150px;
+        border-radius: 10px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; 
+    }
+    
+    .bloc_rest_home:hover{
+        background-color: rgb(28, 59, 59);
+        background-image: url("../../assets/icons/lounge.gif");
+        width: 200px;
+        height: 150px;
+        border-radius: 10px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; 
+    }
+    
+   
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+    .all_home{
+        width: 100%;
+        min-height: 120vh;
+        background-color: #000000;
+        background-image: url("../../assets/imgs/home_600px2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      
+    
+    }
+  
+    .bloc_item_home{
+        width: 100%;
+        height: auto;
+      
+   
+    }
+    
+    .bloc_game_home{
+        background-color: rgb(131, 189, 189);
+        background-image: url("../../assets/icons/gameroom-f.jpg");
+        width: 86px;
+        height: 65px;
+        border-radius: 10px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; 
+        margin-top: -100px;
+    }
+    
+    .bloc_game_home:hover{
+        background-color: rgb(131, 189, 189);
+        background-image: url("../../assets/icons/gameroom.gif");
+        width: 86px;
+        height: 65px;
+        border-radius: 10px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; 
+        margin-top: -100px;
+    }
+    
+    .bloc_show_home{
+        background-color: rgb(78, 85, 85);
+        background-image: url("../../assets/icons/showroom-f.jpg");
+        width: 86px;
+        height: 65px;
+        border-radius: 10px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; 
+        margin-top: -100px;
+    }
+    .bloc_show_home:hover{
+        background-color: rgb(78, 85, 85);
+        background-image: url("../../assets/icons/showroom.gif");
+        width: 86px;
+        height: 65px;
+        border-radius: 10px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; 
+        margin-top: -100px;
+    }
+    
+    .bloc_vip_home{
+        background-color: rgb(83, 121, 121);
+        background-image: url("../../assets/icons/viproom-f.jpg");
+        width: 86px;
+        height: 65px;
+        border-radius: 10px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; 
+        margin-top: -100px;
+    }
+    
+    
+    .bloc_vip_home:hover{
+        background-color: rgb(83, 121, 121);
+        background-image: url("../../assets/icons/viproom.gif");
+        width: 86px;
+        height: 65px;
+        border-radius: 10px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; 
+        margin-top: -100px;
+    }
+    
+    .bloc_rest_home{
+        background-color: rgb(28, 59, 59);
+        background-image: url("../../assets/icons/lounge.jpg");
+        width: 86px;
+        height: 65px;
+        border-radius: 10px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; 
+        margin-top: -100px;
+    }
+    
+    .bloc_rest_home:hover{
+        background-color: rgb(28, 59, 59);
+        background-image: url("../../assets/icons/lounge.gif");
+        width: 86px;
+        height: 65px;
+        border-radius: 10px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; 
+        margin-top: -100px;
+    }
+
+
+
+
+} 

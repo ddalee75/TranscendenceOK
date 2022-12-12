@@ -1,0 +1,54 @@
+.all404{
+    background-color: antiquewhite;
+}
+.titre{
+
+    text-align: center;
+    color: rgb(77, 0, 80);
+    font-size: 40px;
+    position: fixed;
+    top:20%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.don{
+    width: 500px;
+    /* background-color: aqua; */
+    position: fixed;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+
+.txt{
+
+    text-align: center;
+    color: rgb(77, 0, 80);
+    font-size: 20px;
+    position: fixed;
+    top: 40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.image{
+    width: 100%;
+    height: 400px;
+    /* background-color: aqua;  */
+    position: fixed;
+    top:60%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    background-image: url("../../assets/imgs/WTF.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+    
+}

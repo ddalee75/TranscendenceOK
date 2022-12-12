@@ -1,0 +1,46 @@
+{
+  "name": "transcendence-front",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve --port 4200 --host 0.0.0.0 --public-host localhost --disable-host-check",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "lint": "eslint . --ext .ts"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/common": "^15.0.2",
+    "@angular/compiler": "^15.0.2",
+    "@angular/core": "^15.0.2",
+    "@angular/forms": "^15.0.2",
+    "@angular/platform-browser": "^15.0.2",
+    "@angular/platform-browser-dynamic": "^15.0.2",
+    "@angular/router": "^15.0.2",
+    "eslint": "^8.29.0",
+    "geometric": "^2.5.0",
+    "line-intersect": "^3.0.0",
+    "ngx-cookie-service": "^15.0.0",
+    "rxjs": "~7.6.0",
+    "socket.io": "^4.5.4",
+    "socket.io-client": "^4.5.4",
+    "tslib": "^2.4.1",
+    "zone.js": "~0.12.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^15.0.2",
+    "@angular/cli": "~15.0.2",
+    "@angular/compiler-cli": "^15.0.2",
+    "@types/geometric": "^2.2.0",
+    "@types/jasmine": "~4.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.45.1",
+    "jasmine-core": "~4.5.0",
+    "karma": "~6.4.1",
+    "karma-chrome-launcher": "~3.1.1",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.0.0",
+    "typescript": "~4.8.4"
+  }
+}

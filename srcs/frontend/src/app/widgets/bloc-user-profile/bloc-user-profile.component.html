@@ -1,0 +1,22 @@
+<div class="all_players" >
+
+    <div class="env_players">
+        <div class="user">
+        <div class="user_photo"  style="background-image:url({{this.match.players[0].avatar}})" ></div>
+        <div class="user_name">{{this.match.players[0].login}}</div>
+        </div>
+
+        <div class="user">
+            <div class="user_photo"  style="background-image:url(../../../assets/imgs/vs-versus.png)" ></div>
+        </div>
+        
+        <div class="user">
+            <div class="user_photo"  style="background-image:url({{this.match.players[1].avatar}})" ></div>
+            <div class="user_name">{{this.match.players[1].login}}</div>
+        
+        </div>
+    </div><!--fin div env_players-->
+    <div class="btn">
+        <app-button-v4 [text]="'Watch Now'" (click)="spectate()"></app-button-v4>
+    </div>
+</div>

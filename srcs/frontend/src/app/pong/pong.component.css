@@ -1,0 +1,326 @@
+@media only screen and (min-width: 1721px) {
+  
+.game {
+    
+   
+    text-align: center;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 60px;
+    width : 100%;
+    
+  }
+  .canvas{
+   width: 70%;
+
+   
+    
+  }
+
+  .menu {
+   position: absolute;
+   top: 50%;
+   right: 0;
+   left: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: white;
+    }
+
+    h2{
+        color: aquamarine;
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+
+    button{
+        background-color: rgb(37, 238, 144);
+        border-radius: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top:2px;
+        padding-bottom: 2px;
+        margin: 10px;
+        color: rgb(48, 39, 39);
+        font-size: 16px;
+        cursor: pointer;
+        border: 0ch;
+        margin-bottom: 20px;
+        
+    }
+    .pont_ball{
+        width: 50%;
+        height: 50px;
+        background-color: rgb(4, 71, 71);
+    }
+    .pont-game{
+        width: 50%;
+        background-color: rgb(3, 121, 105);
+    }
+
+    .customize{
+      
+        display: flex;
+        justify-content:space-around;
+        width: 600px;
+
+    
+    }
+
+
+    .racket {
+        position: absolute;
+        height: 200px;
+        width: 50px;
+        border-radius: 5px;
+    
+    }
+
+    .ball {
+        position: absolute;
+        top: 200px;
+        left: 200px;
+        background-color: white;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+
+
+    .title_pong{
+        color: rgb(252, 248, 248);
+        text-align: center;
+
+
+
+    }
+
+    .bloc{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+
+    }
+
+    .bloc video{
+        position: absolute;
+    min-width: 100%;
+        min-height: 100%;
+        top: 50%;
+        left: 50%;
+        z-index:-100;
+        transform: translate(-50%, -50%); 
+
+    }
+
+    .bloc::before{
+        position: absolute;
+        content: "";
+        min-width: 100%;
+        min-height: 100%;
+        z-index:-99;
+        background-color: rgba(10, 1, 1, 0.486);
+
+    }
+}
+
+@media only screen and (max-width: 1720px) {
+
+.game {
+    
+    /* position: relative; */
+    text-align: center;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 100px;
+    width : 100%;
+    
+  }
+  .canvas{
+   width: 90%;
+   height: auto;
+
+   
+    
+  }
+
+  .menu {
+   position: absolute;
+   top: 50%;
+   right: 0;
+   left: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: white;
+    }
+
+    h2{
+        color: aquamarine;
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+
+    button{
+        background-color: rgb(37, 238, 144);
+        border-radius: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top:2px;
+        padding-bottom: 2px;
+        margin: 10px;
+        color: rgb(48, 39, 39);
+        font-size: 16px;
+        cursor: pointer;
+        border: 0ch;
+        margin-bottom: 20px;
+        
+    }
+    .pont_ball{
+        width: 50%;
+        height: 50px;
+        background-color: rgb(4, 71, 71);
+    }
+    .pont-game{
+        width: 50%;
+        background-color: rgb(3, 121, 105);
+    }
+
+    .customize{
+        /* background-color: rgba(190, 6, 214, 0.336); */
+        display: flex;
+        justify-content:space-around;
+        width: 600px;
+
+    
+    }
+
+
+    .racket {
+        position: absolute;
+        height: 200px;
+        width: 50px;
+        border-radius: 5px;
+    
+    }
+
+    .ball {
+        position: absolute;
+        top: 200px;
+        left: 200px;
+        background-color: white;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+
+
+    .title_pong{
+        color: rgb(252, 248, 248);
+        text-align: center;
+
+
+
+    }
+
+    .bloc{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+
+    }
+
+    .bloc video{
+        position: absolute;
+        min-width: 100%;
+        min-height: 100%;
+        top: 50%;
+        left: 50%;
+        z-index:-100;
+        transform: translate(-50%, -50%); 
+
+    }
+
+    .bloc::before{
+        position: absolute;
+        content: "";
+        min-width: 100%;
+        min-height: 100%;
+        z-index:-99;
+        background-color: rgba(10, 1, 1, 0.486);
+
+    }
+
+}
+@media only screen and (max-width: 600px) {
+
+    .game {
+    
+        /* position: relative; */
+        text-align: center;
+        position: fixed;
+        top:30%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        margin-top: 100px;
+        width : 100%;
+        
+      }
+
+
+    .canvas{
+        position: fixed;
+        
+        left: 50%;
+        transform: translate(-50%,-50%);
+    
+        width : 100%;
+        height : auto;
+       
+        
+      }
+    
+      .menu {
+       position: fixed;
+       top: 25%;
+       right: 0;
+       left: 0;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       color: white;
+    }
+
+}
+
+@media screen and (orientation: landscape){
+
+    .game {
+    
+       
+        text-align: center;
+        position: fixed;
+        top:40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        margin-top: 100px;
+        width : 100%;
+        
+      }
+      .canvas{
+       width: 50%;
+       height: auto;
+    
+       
+        
+      }
+
+        
+}

@@ -1,0 +1,21 @@
+<div class="score_all">
+    <div class="boo" ></div>
+    <div class="env_photo">
+        <div class="texte">
+            The Winner is <br>
+            <b>{{this.winner.login}} </b><br>
+            score "{{this.GameData.player1_score}}:{{this.GameData.player2_score}}"
+            <div class="btn">
+                <app-button-v4 [text]="'I got it'" (click)="closeGameScore()"></app-button-v4>
+            </div>
+        </div>
+    <div class="photo" style="background-image:url({{this.winner.avatar}})">  </div>
+  
+
+ 
+    </div>
+    <!--fin env photo-->
+   
+
+</div>
+<!--fin score_all-->
