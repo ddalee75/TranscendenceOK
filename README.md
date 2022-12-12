@@ -70,16 +70,15 @@ Game<br>
 
 ![Transcendence02](https://user-images.githubusercontent.com/92326016/203372475-3b3026a1-e6cb-451f-99d4-c3d2f5a25de9.jpg)
 
-![Transcendence03](https://user-images.githubusercontent.com/92326016/203372522-4a7add97-cbfe-4c54-b085-3fe800af65c3.jpg)
-
-
-![Transcendence04](https://user-images.githubusercontent.com/92326016/203372562-e172387e-5b97-4150-9497-dae482c435e1.jpg)
-
-![Transcendence05](https://user-images.githubusercontent.com/92326016/203372612-deecaa9b-7fc5-4f10-9187-97bc503fa0ba.jpg)
+![Screenshot from 2022-12-12 16-21-58](https://user-images.githubusercontent.com/92326016/207093483-8ddf867b-e133-42ee-a0d9-2ff0f0d06aba.png)
 
 
 ![Transcendence06](https://user-images.githubusercontent.com/92326016/203372674-5651f41b-4dee-455c-815e-42f60bcaa6c0.jpg)
+![Screenshot from 2022-12-12 16-23-11](https://user-images.githubusercontent.com/92326016/207093531-e7666e38-594a-4c4d-ac25-f0ee1269803b.png)
 
+![Screenshot from 2022-12-12 16-22-34](https://user-images.githubusercontent.com/92326016/207093542-4648c8e3-46c3-4166-a3d5-e43cf2962546.png)
+![Screenshot from 2022-12-12 16-21-47](https://user-images.githubusercontent.com/92326016/207093558-3486af32-baa1-4eab-b24e-43e9f22d3a38.png)
+![Screenshot from 2022-12-12 16-21-36](https://user-images.githubusercontent.com/92326016/207093566-455dac8a-a364-4353-bbb6-c2678c1babca.png)
 
 ![Transcendence07](https://user-images.githubusercontent.com/92326016/203372693-45d20457-fcac-4309-9781-d4110379537d.jpg)
 
