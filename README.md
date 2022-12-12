@@ -68,8 +68,6 @@ Game<br>
 
 ![Transcendence01](https://user-images.githubusercontent.com/92326016/203372148-0041e189-7ac9-4753-a62a-37bdd574563f.jpg)
 
-![Transcendence02](https://user-images.githubusercontent.com/92326016/203372475-3b3026a1-e6cb-451f-99d4-c3d2f5a25de9.jpg)
-
 ![Screenshot from 2022-12-12 16-21-58](https://user-images.githubusercontent.com/92326016/207093483-8ddf867b-e133-42ee-a0d9-2ff0f0d06aba.png)
 
 
