@@ -7,7 +7,7 @@ video Transcendence:https://www.chinglinlee.com/portfolio-item/transcendence/
 <b>Creation of a website for an online game “PONG”, with private and public chat and user interface</b>
 
 Project Ecole 42 <br>
-Team project of 5 (in progress)<br>
+Team project of 5<br>
 
 Technology :<br>
 Angular • Node JS - Nest JS • Prisma • PostgreSQL • HTML • CSS • Docker<br><br>
